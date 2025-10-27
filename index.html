@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Ahamed Muiz</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="siteNav" class="nav">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#assignments">Assignments</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Personal Introduction -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>Hi, I'm <span class="accent">Ahamed Muiz</span></h1>
+<p class="lead">
+  A dedicated <strong>Full Stack Developer</strong> who loves turning ideas into interactive, high-performing web solutions. 
+  Skilled in <strong>Java</strong>, <strong>JavaScript</strong>, <strong>HTML</strong>, <strong>CSS</strong>, and modern front-end & back-end frameworks.
+</p>
+
+<div class="cta-group">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-photo" aria-hidden="true">
+
+          <img src="assets/images/Copy of IMG-20201124-WA0093.jpg" alt="Profile photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- About + Personal Details + Interests -->
+    <section id="about" class="section about">
+      <div class="container grid about-grid">
+        <div class="about-card">
+          <h2>About Me</h2>
+          <p>I am a concise paragraph about you — background, goals and what you bring to the table. Keep it professional and friendly.</p>
+
+          <h3>Preferred Streams / Interests</h3>
+          <ul class="chips">
+            <li>Web Development</li>
+            <li>UI / UX Design</li>
+            <li>Data Science</li>
+            <li>Mobile Apps</li>
+          </ul>
+        </div>
+
+        <aside class="personal-details">
+          <h3>Personal Details</h3>
+          <dl>
+            <div><dt>Full name</dt><dd>Ahamed Muiz</dd></div>
+            <div><dt>Location</dt><dd>Weligama, Sri Lanka</dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:ahamedmuiz123@gmail.com">ahamedmuiz123@gmail.com</a></dd></div>
+            <div><dt>Phone</dt><dd>+94 76 909 4100</dd></div>
+            <div><dt>Languages</dt><dd>English, Sinhala, Tamil</dd></div>
+            <div><dt>Availability</dt><dd>Open to Work / Freelance</dd></div>
+          </dl>
+
+          <h3>Social</h3>
+          <ul class="social">
+            <li><a href="https://www.linkedin.com/feed/" aria-label="LinkedIn" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/" aria-label="GitHub" target="_blank">GitHub</a></li>
+            <li><a href="https://web.facebook.com/?_rdc=1&_rdr#" aria-label="Facebook" target="_blank">Facebook</a></li>
+            <li><a href="https://wa.me/94769094100" aria-label="Twitter" target="_blank">Whatsapp</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section education">
+      <div class="container">
+        <h2>Education</h2>
+        <ol class="timeline">
+          <li>
+            <h4>Degree Name — University</h4>
+            <p class="muted">2019 — 2023</p>
+            <p>Short description, honors, and relevant coursework.</p>
+          </li>
+          <li>
+            <h4>Higher Secondary — College</h4>
+            <p class="muted">2017 — 2019</p>
+            <p>Subjects / achievements.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section experience">
+      <div class="container">
+        <h2>Work Experience</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Job Title — Company</h3>
+            <p class="muted">2024 — Present</p>
+            <ul>
+              <li>Responsibility or achievement 1</li>
+              <li>Responsibility or achievement 2</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Intern — Company</h3>
+            <p class="muted">2023 — 2024</p>
+            <ul>
+              <li>Responsibility or achievement 1</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <!-- Repeat cards for each project -->
+          <article class="project-card">
+            <img src="assets/images/project1.png" alt="Project screenshot">
+            <h3>Project Title</h3>
+            <p>Short description of the project, tech used, and outcome.</p>
+            <p class="tags">HTML • CSS • JavaScript</p>
+            <div class="project-links">
+              <a href="#">Live</a>
+              <a href="#">Code</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Assignments -->
+    <section id="assignments" class="section assignments">
+      <div class="container">
+        <h2>Assignments</h2>
+        <p>Academic exercises completed for various modules. Include screenshots or links below.</p>
+        <div class="assign-grid">
+          <figure>
+            <img src="assets/images/assignment1.png" alt="Assignment screenshot">
+            <figcaption>Assignment: Responsive layout — <a href="#">View</a></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2>Skill Set</h2>
+        <div class="skill-grid">
+          <div class="skill">
+            <h4>HTML & CSS</h4>
+            <div class="skill-bar"><span style="--pct:92%">92%</span></div>
+          </div>
+          <div class="skill">
+            <h4>JavaScript</h4>
+            <div class="skill-bar"><span style="--pct:78%">78%</span></div>
+          </div>
+          <div class="skill">
+            <h4>React / Vue</h4>
+            <div class="skill-bar"><span style="--pct:65%">65%</span></div>
+          </div>
+          <div class="skill">
+            <h4>Data Analysis</h4>
+            <div class="skill-bar"><span style="--pct:55%">55%</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activities -->
+    <section id="activities" class="section activities">
+      <div class="container">
+        <h2>Activities</h2>
+        <ul class="activities-list">
+          <li>Volunteer at XYZ — 2022</li>
+          <li>Hackathons — 3 participations</li>
+          <li>University Club Leader</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+          <img src="assets/images/photo1.jpg" alt="Gallery photo 1">
+          <img src="assets/images/photo2.jpg" alt="Gallery photo 2">
+          <img src="assets/images/photo3.jpg" alt="Gallery photo 3">
+          <img src="assets/images/photo4.jpg" alt="Gallery photo 4">
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <div>
+          <h2>Contact</h2>
+          <p>Interested in working together? Send a message.</p>
+          <address>
+            <strong>Email:</strong> <a href="mailto:you@example.com">you@example.com</a><br>
+            <strong>Phone:</strong> +94 77 123 4567
+          </address>
+        </div>
+
+        <form class="contact-form" action="#" method="POST" onsubmit="alert('Form submitted (demo only)'); return false;">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="btn" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Small JS for nav toggle + year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const nav = document.getElementById('siteNav');
+    const btn = document.getElementById('navToggle');
+    btn.addEventListener('click', ()=> nav.classList.toggle('open'));
+  </script>
+
+
