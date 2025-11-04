@@ -22,10 +22,6 @@ body {
   display: flex; justify-content: space-between; align-items: center;
 }
 
-.logo-link {
-  color: #3498db; font-size: 1.4em;
-  font-weight: 700; text-decoration: none;
-}
 
 .main-nav ul {
   list-style: none; display: flex; gap: 25px;
