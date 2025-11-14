@@ -32,7 +32,7 @@ body {
     width: auto;
 }
 
-/* Hamburger/Cancel menu icon (Now an IMG element) */
+/* Hamburger/Cancel menu img */
 .menu-toggle {
     display: none; 
     width: 30px; 
@@ -92,8 +92,31 @@ body {
     object-fit: cover;
     border-radius: 15px; 
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+    /* ADDED ANIMATION */
+    animation: 
+        floatUpDown 4s ease-in-out infinite alternate, /* Gentle vertical movement */
+        shadowPulse 4s ease-in-out infinite alternate; /* Subtle shadow pulse */
 }
 
+/* ADDED KEYFRAME ANIMATIONS */
+@keyframes floatUpDown {
+    from {
+        transform: translateY(0px); /* Start at original position */
+    }
+    to {
+        transform: translateY(-15px); /* Move up 15px */
+    }
+}
+
+@keyframes shadowPulse {
+    from {
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Original shadow */
+    }
+    to {
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3); /* Slightly larger, darker shadow */
+    }
+}
 
 /* --- Section Containers --- */
 section { padding: 80px 0; }
@@ -288,6 +311,7 @@ section { padding: 80px 0; }
         width: 250px; 
         height: 250px;
         margin-bottom: 20px;
+        /* Animation will still apply but the image size changes */
     }
     .hero-text h1 { font-size: 2em; }
     .hero-buttons { justify-content: center; }
