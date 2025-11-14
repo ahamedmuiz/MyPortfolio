@@ -1,194 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMD/CD+QIR/aE7ozd+sO9RW0B5DQQf+RTOpW8I5Hw/A1F98V+6Wv7+lJ4S+Kj0A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMD/CD+QIR/aE7ozd+sO9RW0B5DQQf+RTOpW8I5Hw/A1F98V+6Wv7+lJ4S+Kj0A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
-  <!-- ===== Header ===== -->
-  <header class="main-header">
-    <div class="header-container">
-      <a href="#home" class="logo-link">
-      </a>
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#home" class="logo-link">
+                <img src="assets/images/HeaderLogo.png" alt="Ahamed Muiz Logo" class="header-logo">
+            </a>
 
-      <nav class="main-nav">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact" class="btn-contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+            <img src="assets/images/hamburger-menu.png" alt="Menu" class="menu-toggle" id="menu-toggle">
 
-  <!-- ===== Hero Section ===== -->
-<section id="home" class="hero-section">
-  <div class="hero-container">
-    <div class="hero-text">
-      <h1>Hi, I'm <span class="accent">Ahamed Muiz</span></h1>
-      <p class="lead">
-        A passionate <strong>Full Stack Developer</strong> dedicated to building dynamic, user-friendly,
-        and scalable web applications. Skilled in <strong>Java</strong>, <strong>JavaScript</strong>,
-        <strong>HTML</strong>, and <strong>CSS</strong> — I love crafting clean, elegant, and efficient digital solutions.
-      </p>
-      <div class="hero-buttons">
-        <a href="#projects" class="btn-primary">View My Projects</a>
-        <a href="#contact" class="btn-outline">Get in Touch</a>
-      </div>
-    </div>
-
-    <div class="hero-image">
-      <img src="assets/images/Copy of IMG-20201124-WA0093.jpg" alt="profile photo">
-    </div>
-  </div>
-</section>
-
-  <!-- ===== About Section ===== -->
-  <section id="about" class="about-section">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        I’m Ahamed, a dedicated and creative Full Stack Developer with a strong foundation in
-        modern web technologies. I enjoy solving real-world problems through innovative and
-        efficient code. My goal is to build user-centered digital products that combine functionality,
-        performance, and clean design.
-      </p>
-
-      <div class="about-grid">
-        <div>
-          <h3>Personal Details</h3>
-          <ul>
-            <li><strong>Name:</strong> Ahamed Muiz</li>
-            <li><strong>Email:</strong> ahamedmuiz123@gmail.com</li>
-            <li><strong>Phone:</strong> +94 76 909 4100</li>
-            <li><strong>Location:</strong> Weligama, Sri Lanka</li>
-          </ul>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact" class="btn-contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-        <div>
-          <h3>Interests</h3>
-          <ul class="chips">
-            <li>Web Development</li>
-            <li>UI/UX Design</li>
-            <li>Data Science</li>
-            <li>Problem Solving</li>
-          </ul>
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="accent">Ahamed Muiz</span></h1>
+                <p class="lead">
+                    A passionate <strong>Full Stack Developer</strong> dedicated to building dynamic, user-friendly,
+                    and scalable web applications. Skilled in <strong>Java</strong>, <strong>JavaScript</strong>,
+                    <strong>HTML</strong>, and <strong>CSS</strong> — I love crafting clean, elegant, and efficient digital solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn-outline">Get in Touch</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="assets/images/Copy of IMG-20201124-WA0093.jpg" alt="profile photo">
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== Skills Section ===== -->
-  <section id="skills" class="skills-section">
-    <div class="container">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div class="skill"><h4>HTML</h4><div class="bar"><span style="width:90%"></span></div></div>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I’m Ahamed, a dedicated and creative Full Stack Developer with a strong foundation in
+                modern web technologies. I enjoy solving real-world problems through innovative and
+                efficient code. My goal is to build user-centered digital products that combine functionality,
+                performance, and clean design.
+            </p>
+
+            <div class="about-grid">
+                <div>
+                    <h3>Personal Details</h3>
+                    <ul>
+                        <li><strong>Name:</strong> Ahamed Muiz</li>
+                        <li><strong>Email:</strong> ahamedmuiz123@gmail.com</li>
+                        <li><strong>Phone:</strong> +94 76 909 4100</li>
+                        <li><strong>Location:</strong> Weligama, Sri Lanka</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Interests</h3>
+                    <ul class="chips">
+                        <li>Web Development</li>
+                        <li>UI/UX Design</li>
+                        <li>Data Science</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill"><h4>HTML</h4><div class="bar"><span style="width:90%"></span></div></div>
                 <div class="skill"><h4>CSS</h4><div class="bar"><span style="width:70%"></span></div></div>
-        <div class="skill"><h4>JavaScript</h4><div class="bar"><span style="width:80%"></span></div></div>
-        <div class="skill"><h4>Java</h4><div class="bar"><span style="width:75%"></span></div></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Education Section ===== -->
-  <section id="education" class="education-section">
-    <div class="container">
-      <h2>Education</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <h3>Higher Diploma in Software Engineering</h3>
-          <p>IJSE - Institute of Software Engineering | 2024 - Present</p>
+                <div class="skill"><h4>JavaScript</h4><div class="bar"><span style="width:80%"></span></div></div>
+                <div class="skill"><h4>Java</h4><div class="bar"><span style="width:75%"></span></div></div>
+            </div>
         </div>
-        <div class="timeline-item">
-          <h3>G.C.E Advanced Level</h3>
-          <p>Commerce Stream | Salahiya International School | 2022</p>
+    </section>
+
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Higher Diploma in Software Engineering</h3>
+                    <p>IJSE - Institute of Software Engineering | 2024 - Present</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>G.C.E Advanced Level</h3>
+                    <p>Commerce Stream | Salahiya International School | 2022</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== Projects Section ===== -->
-  <section id="projects" class="projects-section">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <img src="assets/images/myportfolio-img.png" alt="My portfolio SCreenShot">
-          <h4>Personal Portfolio Website</h4>
-          <p>A fully responsive portfolio website built using HTML, CSS, and JavaScript.</p>
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="assets/images/myportfolio-img.png" alt="My portfolio SCreenShot">
+                    <h4>Personal Portfolio Website</h4>
+                    <p>A fully responsive portfolio website built using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/pos-img.jpg" alt="pos-ScreenShot">
+                    <h4>POS System</h4>
+                    <p>A simple in-memory Point of Sale system developed using JavaScript.</p>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/BMS-USING-MVC.png" alt="Bookshop Management System">
+                    <h4>Bookshop Management System</h4>
+                    <p>A robust Bookshop Management System (BMS) built with JavaFX, Java (OOP), and Maven, demonstrating strict MVC & Layered Architecture.</p>
+                </div>
+            </div>
         </div>
-        <div class="project-card">
-          <img src="assets/images/pos-img.jpg" alt="pos-ScreenShot">
-          <h4>POS System</h4>
-          <p>A simple in-memory Point of Sale system developed using JavaScript.</p>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="assets/images/CarPic.jpeg" alt="pic-withCar">
+                <img src="assets/images/boatSaffari.jpeg" alt="boatImage">
+                <img src="assets/images/frameImg.jpeg" alt="frameImg">
+                <img src="assets/images/8Bp.jpeg" alt="8BallPoolImage">
+            </div>
         </div>
-        <div class="project-card">
-          <img src="assets/images/BMS-USING-MVC.png" alt="BookShopMgtSystemImage">
-          <h4>POS System</h4>
-          <p>A robust Bookshop Management System (BMS) built with JavaFX, Java (OOP), and Maven, demonstrating strict MVC & Layered Architecture.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you’d like to discuss a project or collaboration, feel free to reach out.</p>
+
+            <form class="contact-form" id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="social-icons">
+                <a href="https://github.com/ahamedmuiz" target="_blank">
+                    <img src="assets/images/github.png" alt="GitHub image">
+                </a>
+                <a href="https://wa.me/94769094100" target="_blank">
+                    <img src="assets/images/whatsapp.png" alt="WhatsApp image">
+                </a>
+                <a href="https://linkedin.com/in/ahamed-am-ba6113323" target="_blank">
+                    <img src="assets/images/linkedIn.png" alt="LinkedIn image">
+                </a>
+                <a href="https://facebook.com/ahamed.muiz.5" target="_blank">
+                    <img src="assets/images/fb.png" alt="Facebook image">
+                </a>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== Gallery Section ===== -->
-  <section id="gallery" class="gallery-section">
-    <div class="container">
-      <h2>Gallery</h2>
-      <div class="gallery-grid">
-        <img src="assets/images/CarPic.jpeg" alt="pic-withCar">
-        <img src="assets/images/boatSaffari.jpeg" alt="boatImage">
-        <img src="assets/images/frameImg.jpeg" alt="frameImg">
-        <img src="assets/images/8Bp.jpeg" alt="8BallPoolImage">
-      </div>
-    </div>
-  </section>
+    <footer class="footer">
+        <p>© 2025 Ahamed Muiz. All Rights Reserved. </p>
+    </footer>
 
- <!-- ===== Contact Section ===== -->
-<section id="contact" class="contact-section">
-  <div class="container">
-    <h2>Contact Me</h2>
-    <p>If you’d like to discuss a project or collaboration, feel free to reach out.</p>
-
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-
-    <div class="social-icons">
-      <a href="https://github.com/ahamedmuiz" target="_blank">
-        <img src="assets/images/github.png" alt="GitHub image">
-      </a>
-      <a href="https://wa.me/94769094100" target="_blank">
-        <img src="assets/images/whatsapp.png" alt="WhatsApp image">
-      </a>
-      <a href="https://linkedin.com/in/ahamed-am-ba6113323" target="_blank">
-        <img src="assets/images/linkedIn.png" alt="LinkedIn image">
-      </a>
-      <a href="https://facebook.com/ahamed.muiz.5" target="_blank">
-        <img src="assets/images/fb.png" alt="Facebook image">
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- Font Awesome CDN -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-  <!-- ===== Footer ===== -->
-  <footer class="footer">
-    <p>© 2025 Ahamed Muiz. All Rights Reserved. </p>
-  </footer>
+    <script src="assets/js/script.js"></script> 
 
 </body>
 </html>
